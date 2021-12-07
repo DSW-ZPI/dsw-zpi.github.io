@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(252, 252, 252);
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+}
+header h1 {
+  padding: 10px;
+}
+
+.logo-img {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 12%;
+  height: auto;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 2%;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: rgb(56, 54, 54);
+}
+
+nav > ul {
+  text-align: center;
+}
+
+nav > ul > li {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-href {
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+li:hover > .nav-href {
+  border-bottom: solid #fff 3px;
+  opacity: 0.8;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.left-main {
+  float: left;
+  width: 60%;
+  margin-bottom: 50px;
+}
+
+.left-main > ol {
+  padding-left: 3%;
+  text-align: justify;
+}
+
+.right-main {
+  float: left;
+  width: 40%;
+}
+
+.right-main > ul {
+  padding-left: 5%;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#foto-element {
+  float: left;
+  border: solid black 3px;
+  background: black;
+  border-radius: 50px;
+  width: 50%;
+  height: 27vw;
+  overflow: hidden;
+  margin-left: 5%;
+}
+
+#foto-element > img {
+  width: 100%;
+}
+
+aside {
+  width: 30%;
+  height: 50vh;
+  float: right;
+  margin-right: 5%;
+}
+
+aside > h3 {
+  background-color: rgb(56, 54, 54);
+  color: #fff;
+}
+
+.aside-list {
+  list-style: none;
+  text-align: center;
+  background-color: #fff;
+}
+
+.aside-list > .aside-element {
+  padding: 5px;
+  border-bottom: solid black 3px;
+  border-left: solid black 3px;
+  border-right: solid black 3px;
+}
+
+.aside-list > .aside-element > a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.8s ease;
+}
+
+.aside-list > .aside-element > a:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+footer {
+  clear: both;
+  margin-top: 2%;
+  background-color: rgb(56, 54, 54);
+  padding: 2%;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
